@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 function App() {
   const [notes, setNotes] = useState([]);
 
-  const API_URL = "http://localhost:5038/";
+  const API_URL = "https://todoappturawa-api.onrender.com";
 
   useEffect(() => {
     refreshNotes();
